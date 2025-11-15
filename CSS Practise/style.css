@@ -1,9 +1,19 @@
 p {
     /* text-align: center; */
     text-align: start; /* in english means left*/
+    /* text-decoration: line-through; */
 }
 
 h1 {
     /* text-align: right; */
     text-align: end; /* in english means right*/
+    text-decoration: underline
+}
+
+h2 {
+    text-decoration : olive dotted overline;
+}
+
+a {
+    text-decoration: none;
 }
