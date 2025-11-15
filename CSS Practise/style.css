@@ -1,17 +1,11 @@
-p {
-    /* text-align: center; */
-    text-align: center; /* in english means left*/
-    /* text-decoration: line-through; */
-}
-
-a {
-    text-decoration: none;
-}
-
 #one {
-    font-family: arial;
+    font-size: 25px;
 }
 
 #two {
-    font-family : 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+
+#three {
+    font-size: 10px; 
 }
