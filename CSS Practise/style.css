@@ -2,10 +2,18 @@
     color: pink;
 }
 
-h1 {
-    color: blue;
-}
-
 button {
     color: brown;
+}
+
+#headingOne{
+    color: aqua;
+}
+
+#headingTwo{
+    color: coral;
+}
+
+#headingThree{
+    color: crimson;
 }
