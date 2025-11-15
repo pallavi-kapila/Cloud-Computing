@@ -1,10 +1,12 @@
 #one {
     font-size: 25px;
-    line-height: 50px;
+    line-height: normal;
+    text-transform: uppercase;
 }
 
 #two {
     font-size: 20px;
+    text-transform: lowercase;
 }
 
 #three {
