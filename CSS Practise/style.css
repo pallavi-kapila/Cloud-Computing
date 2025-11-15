@@ -1,19 +1,13 @@
-* {
-    color: pink;
+#box {
+    background-color: blue;
+    /* color: white; */
+    /* This is a comment */
+}
+
+.heading {
+    color: red;
 }
 
 button {
-    color: brown;
-}
-
-#headingOne{
-    color: aqua;
-}
-
-#headingTwo{
-    color: coral;
-}
-
-.myClass {
-    color: darkviolet;
+    background-color: green;
 }
