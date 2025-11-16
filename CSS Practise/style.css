@@ -12,6 +12,7 @@ div {
 
 #box2 {
     background-color: olive;
+    visibility: hidden;
 }
 
 #box3 {
