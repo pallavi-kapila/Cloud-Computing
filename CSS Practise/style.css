@@ -9,4 +9,6 @@ div {
     padding-bottom: 10px;
     padding-top: 10px; */
     padding: 2px 3px 5px 10px; /*shorthand  top|right|bootom|left -> clockwise*/
+    /* margin-top: 35px;  */
+    margin: 10px 20px 30px 35px;/*shorthand  top|right|bootom|left -> clockwise*/
 }
