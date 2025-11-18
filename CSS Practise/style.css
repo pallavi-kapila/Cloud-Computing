@@ -1,32 +1,23 @@
-.navBar ul {
+div {
+    height: 50px;
+    width: 50px;
     background-color: pink;
-    display: flex;
-    justify-content: space-evenly;
 }
 
-a {
-    text-decoration: none;
-    color: black;
+@media (width : 600px) {
+    div {
+        background-color: blueviolet;
+    }
 }
 
-li {
-    list-style-type: none;
-    /* background-color: bisque; */
-    display: inline;
+@media (min-width : 600px) {
+    div {
+        background-color: cadetblue;
+    }
 }
 
-.outer {
-    height: 400px;
-    width: 400px;
-    background-color: cornflowerblue;
-    display: flex;
-    justify-content: center; /*for main axis*/
-    align-items: center; /*for cross axis and is applied on container*/
-}
-
-.inner {
-    height: 100px;
-    width: 100px;
-    background-color: coral;
-    align-self: flex-start;
+@media (min-width : 200px) and (max-width : 400px) {
+    div {
+        background-color: sienna;
+    }
 }
