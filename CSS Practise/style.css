@@ -1,7 +1,7 @@
 div {
     height: 200px;
     width: 200px;
-    background-color: aquamarine;
+    background-color: goldenrod;
     border: 2px solid brown;
     /* transition-property: all;
     transition-duration: 2s;
@@ -11,7 +11,7 @@ div {
 }
 
 div:hover { /*how to change state*/
-    background-color: burlywood;
+    background-color: tan;
     color: brown;
     font-size: 20px;
 }
