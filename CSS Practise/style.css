@@ -7,7 +7,11 @@ div {
     transition-duration: 2s;
     transition-timing-function: steps(3);
     transition-delay: 1s; */
+    position: absolute;
+    top: 100px;
+    left: 100px;
     transition: all 2s ease-in 1s;
+    transform: rotate(90deg);
 }
 
 div:hover { /*how to change state*/
