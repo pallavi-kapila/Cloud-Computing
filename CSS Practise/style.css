@@ -13,18 +13,22 @@ div {
     /* animation-delay: 0s;
     animation-iteration-count: infinite;
     animation-direction: alternate; */
-    animation: colorAnimate 2s ease-in 1s infinite normal;
+    animation: colorAnimate 4s ease-in 1s infinite normal;
 }
 
 @keyframes colorAnimate {
-    from { 
+    0% { 
           left: 0px;
           background-color: mediumvioletred;
-        }
-    to { 
+    }
+    50% {
+        background-color : cadetblue;
+    }
+    100% { 
         left: 200px;
         background-color: burlywood;
         color: brown;
     }
+    
 }
 
