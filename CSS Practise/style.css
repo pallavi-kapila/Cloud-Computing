@@ -8,6 +8,8 @@
     height: 60px;
     background-color: #0F1111;
     color: white;
+    display: flex;
+    align-items: center;
 }
 
 .nav-logo {
@@ -15,14 +17,13 @@
     width: 100px;
 }
 
+/*box1*/
 .logo {
     background-image: url("amazon-logo.png");
     height: 50px;
     width: 100%;
     background-repeat: no-repeat;
-    background-position: center;
     background-size: contain; /* show full image without cropping */
-    background-color: #0F1111; /* fills empty space with navbar color */
 }
 
 .border {
@@ -32,3 +33,21 @@
 .border:hover {
     border: 1.5px solid white;
 }
+
+/*box2*/
+.add-first {
+    color: #cccccc;
+    font-size: 0.85rem;
+    margin-left: 21px;
+}
+
+.add-sec {
+    font-size: 1rem;
+    margin-left: 3px;
+}
+
+.add-icon {
+    display: flex;
+    align-items: center;
+}
+
