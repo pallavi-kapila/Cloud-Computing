@@ -3,29 +3,22 @@ div {
     width: 100px;
     background-color: aquamarine;
     border: 2px solid black;
-    /* transition-property: all;
-    transition-duration: 2s;
-    transition-timing-function: steps(3);
-    transition-delay: 1s; */
     position: absolute;
     top: 100px;
     left: 100px;
-    transition: all 2s ease-in;
-    /* transform: rotate(90deg); */
-    /* transform: scale(2); */
+    animation-name: colorAnimate;
+    animation-duration: 0.25s;
+    /* animation-timing-function: ease-in; */
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
 }
 
-div:hover { /*how to change state*/
-    /* background-color: cadetblue;
-    color: brown;
-    font-size: 20px; */
-    /* transform: translateX(200px); */
-    /* transform: translate(100px , 80px); */
-    transform: skew(30deg);
+@keyframes colorAnimate {
+    from { background-color: aquamarine;}
+    to { background-color: pink;}
 }
 
-div:active {
-    background-color: pink;
-    color: darkblue;
-    font-size: 25px;
+div:hover { 
+
 }
+
