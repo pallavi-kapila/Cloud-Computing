@@ -10,6 +10,7 @@
     color: white;
     display: flex;
     align-items: center;
+    justify-content: space-evenly;
 }
 
 .nav-logo {
@@ -27,11 +28,12 @@
 }
 
 .border {
-    border: 2px solid transparent;
+  border: 1.5px solid transparent;
+  transition: border-color 0.2s ease;
 }
 
 .border:hover {
-    border: 1.5px solid white;
+  border-color: white;
 }
 
 /*box2*/
@@ -56,4 +58,110 @@
 .nav-search {
     display: flex;
     background-color: pink;
+    justify-content: space-evenly;
+    width: 620px;
+    height: 40px;
+    border-radius : 4px;
+}
+
+.search-select {
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius : 4px;
+    border-bottom-left-radius : 4px;
+    border: none;
+}
+
+.search-input {
+     width: 100%;
+     font-size: 1rem;
+     border: none;
+}
+
+.search-icon {
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    background-color: #febd68;
+    border-top-right-radius : 4px;
+    border-bottom-right-radius : 4px;
+    color: #0F1111;
+}
+
+/* box4 - language section */
+.nav-language {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding: 5px 8px;
+  height: 40px;
+  cursor: pointer;
+}
+
+.flag {
+  width: 22px;
+  height: 16px;
+  object-fit: cover;
+}
+
+.nav-language p {
+  font-size: 0.9rem;
+  font-weight: bold;
+  color: white;
+}
+
+.nav-language i {
+  font-size: 0.7rem;
+  color: #cccccc;
+}
+
+/* Dropdown styles */
+.language-dropdown {
+  display: none;
+  position: absolute;
+  top: 45px;
+  left: 0;
+  background-color: white;
+  color: black;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 200px;
+  padding: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  z-index: 100;
+}
+
+.language-dropdown label {
+  display: block;
+  font-size: 0.9rem;
+  margin: 5px 0;
+}
+
+.language-dropdown input[type="radio"] {
+  margin-right: 6px;
+}
+
+.language-dropdown .dropdown-title {
+  font-weight: bold;
+  font-size: 0.95rem;
+  margin-bottom: 8px;
+}
+
+/* Show dropdown on hover */
+.nav-language:hover .language-dropdown {
+  display: block;
+}
+
+/** box 5 **/
+span {
+    font-size: 0.7rem;
+}
+
+.nav-second {
+    font-size: 0.85rem;
+    font-weight: 700;
 }
